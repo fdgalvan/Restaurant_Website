@@ -1,0 +1,101 @@
+/* COLORS
+
+Charcoal (dark navy blue) - #233D4D
+Pumpkin (dark orange) - #FE7F2D
+Dark Red - #9D0208
+Sunglow (yellow) - #FCCA46 (accent color)
+Olivine (medium green) - #A1C181
+Polished Pine (teal) - #619B8A
+
+Golden Poppy (gold) - #FDC500
+
+*/
+
+
+/* background colors */
+
+.bg-black{
+    background-color: black;
+}
+
+.bg-navy{
+    background-color: #233D4D;
+}
+
+.bg-accent{
+    background-color: #FCCA46;
+}
+
+.bg-green{
+    background-color: #A1C181;
+}
+
+.bg-teal{
+    background-color: #619B8A;
+}
+
+
+/* text colors */
+
+.text-black{
+    color: black;
+}
+
+.text-red{
+    color: #9D0208;
+}
+
+.text-navy{
+    color: #233D4D;
+}
+
+.text-accent{
+    color: #FCCA46;
+}
+.text-accent a{
+    color: #FCCA46;
+}
+.text-accent a:hover{
+    color: #9D0208;
+}
+
+.text-green{
+    color: #A1C181;
+}
+
+.text-teal{
+    color: #619B8A;
+}
+
+.text-white{
+    color: #FFFFFF;
+}
+
+
+/* Page Sections */
+
+.ps-light{
+    background: #A1C181;
+    height: 850px;
+    width: 100%;
+}
+.ps-dark{
+    background: #233D4D;
+    height: 850px;
+    width: 100%;
+}
+
+
+.parallax{
+    /* The image used */
+    background-image: url("https://images.tbs.com/tbs/w_1600/https%3A%2F%2Fi.cdn.tbs.com%2Fassets%2Fimages%2F2017%2F04%2Fbobs-burger-gallery-1600x900-1600x900_091320160418.jpg");
+
+    /* Set a specific height */
+    min-height: 300px;
+    width: 100%;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
