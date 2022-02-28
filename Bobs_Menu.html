@@ -14,7 +14,68 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
 
 </head>
+
 <body>
+
+    <nav class="navbar sticky-top navbar-expand-lg text-accent bg-navy">
+        <div class="container-fluid">
+            <a class="navbar-brand text-accent" href="#">Bob's Burgers</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDarkDropdown" aria-controls="navbarNavDarkDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon bg-teal"></span>
+                </button>
+                    <div class="collapse navbar-collapse" id="navbarNavDarkDropdown">
+                        <ul class="navbar-nav">
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Navigation
+                                </a>
+                                <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
+                                    <li><a class="dropdown-item" href="#">Home</a></li>
+                                    <li><a class="dropdown-item" href="#">Menu, Present and Past</a></li>
+                                    <li><a class="dropdown-item" href="#">About The Belchers</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+        </div>
+    </nav>
+
+
+    <div class="container=fluid p-0">
+
+        <header class="position-relative">
+
+            <div id="opacityLayer" class="h-100 w-100 bg-black position-absolute top-0 z20">
+                <img width="100%" src="bb_images/BB_the_blechers-3150x1200.jpg" alt="">
+            </div>
+            
+
+            <div id="imageLayer" class="h-100 w-100 bg-warning position-absolute top-0 z10 d-md-none d-lg-none d-xl-none opacity-50">
+                <img width="100%" src="bb_images/BB_BobAndLinda-1784x1427.jpg" alt="">
+            </div>            
+            
+            <div id="textLayer" class="h-100 w-100 position-relative top-0 z25 d-flex text-accent display-1 justify-content-top align-items-center flex-column">
+                
+                <div class="text-red bg-accent">BOB'S BURGERS</div>
+                <div class="text-red bg-accent h4">Delicious Burgers for dine-in or to-go!</div>
+                <div>
+                    <button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                        Order Online
+                    </button>
+                </div>
+
+    </div>
+
+    </header>
+
+<main>
+
     
+
+</main>
+
+
+
 </body>
+
 </html>
